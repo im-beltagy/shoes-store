@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply inline-block rounded bg-accent-main px-8 py-3 text-center font-semibold text-white transition-colors hover:bg-accent-dark active:bg-accent-main;
+  }
+  .btn-outlined {
+    @apply inline-block rounded border-2 border-white px-8 py-3 text-center font-semibold text-white transition-colors hover:bg-[#0002] active:bg-[#0001];
+  }
+}
